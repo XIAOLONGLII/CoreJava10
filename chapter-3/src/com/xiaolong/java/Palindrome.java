@@ -15,11 +15,12 @@ public class Palindrome
 			t[string.length() - i - 1] = t[i];
 			t[i] = temp;
 		}
+		
+		System.out.println(Arrays.toString(t));
 
-	for(char c: t)
-	{
-		System.out.print(c);
 	}
+}
+
 	
 		
 	
@@ -46,7 +47,4 @@ public class Palindrome
 ////		}
 		
 		
-		
-	}
 
-}
